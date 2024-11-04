@@ -1,4 +1,4 @@
 import zipfile as zf
 
-f = zf.ZipFile("video.zip")
-f.extractall()
+f = zf.ZipFile("./video/video.zip")
+f.extractall("./video/")
